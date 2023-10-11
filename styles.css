@@ -2,10 +2,9 @@ body, html {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background: rgb(245, 240, 240);
+    background:white;
     align-items: center;
-    justify-content: center;
+    
 }
 
 
@@ -32,7 +31,7 @@ body, html {
 }
    
 .icon {
-    font-size: xx-large;
+    font-size: 3vw;
     margin-right: 5px;
     margin-top: 0;
     margin-bottom: -2.5%;
@@ -42,7 +41,8 @@ body, html {
 
 .user {
     text-align: left;
-    margin-bottom: -1.5%
+    margin-bottom: -1.5%;
+    font-size: 1.5vw;
 }
 h4 {
     margin-bottom: 0;
@@ -54,7 +54,7 @@ p {
 .options {
     text-align: right;
     flex-grow: 2;
-    font-size: xx-large;
+    font-size: 3vw;
     margin-bottom: -3%;
     margin-right:2.5%;
     
@@ -74,7 +74,7 @@ p {
 
 .post-icons {
     display:flex;
-    font-size: xx-large; 
+    font-size: 2.5vw; 
     margin-left: 1%;
     margin-right: 2%;
     margin-bottom:2%;   
@@ -96,3 +96,6 @@ p {
     margin-bottom: 0;
 }
  
+.footer p {
+    font-size: 2vw;
+}
